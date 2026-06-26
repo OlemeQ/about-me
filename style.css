@@ -21,8 +21,8 @@ a {
 }
 
 .hero {
-  min-height: 100vh;
-  padding: 32px 8%;
+  min-height: 620px;
+  padding: 32px 8% 96px;
   background:
     linear-gradient(rgba(15, 23, 42, 0.78), rgba(15, 23, 42, 0.82)),
     url("https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=80")
@@ -61,7 +61,7 @@ a {
 
 .hero-content {
   max-width: 780px;
-  margin-top: 160px;
+  margin-top: 88px;
 }
 
 .eyebrow {
@@ -242,8 +242,13 @@ footer {
     gap: 14px 20px;
   }
 
+  .hero {
+    min-height: 560px;
+    padding-bottom: 72px;
+  }
+
   .hero-content {
-    margin-top: 100px;
+    margin-top: 72px;
   }
 
   .about-grid,
